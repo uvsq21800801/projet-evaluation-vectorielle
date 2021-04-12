@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
   PyObject *sys_path = PySys_GetObject("path");
   PyList_Append(sys_path, PyString_FromString(cwd));
 
-
+  //déclarations
   PyObject *pval;
   char *cString = "Cyberpersons";
   pval = PyString_FromString(cString);
